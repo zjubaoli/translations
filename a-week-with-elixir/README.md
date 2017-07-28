@@ -64,7 +64,7 @@ _Dave_ 对`Elixir`很感兴趣，在他的书里这样写道：
 
 但得知 _Dave_ 与`Elixir`『看对眼』时，我很想知道他为什么会这样。
 
-无独有偶，_Simon St. Laurent_ 也出了本`Elixir`的书。_Simon_ 的[《_Introducing Erlang_》](http://www.amazon.com/Introducing-Erlang-Simon-St-Laurent/dp/1449331769)一书表现不俗，我和他还邮件沟通过几次，所以有些事已经在酝酿了。而 _Pragmatic Press_ 和 _O'Reilly_ 出版社都在争着要出版`Elixir`，我知道在`Erlang VM`上的事已经在发生了，而我自己还没注意到。毫无疑问我Out了！
+无独有偶，_Simon St. Laurent_ 也出了本`Elixir`的书。_Simon_ 的[《_Introducing Erlang_》](http://www.amazon.com/Introducing-Erlang-Simon-St-Laurent/dp/1449331769)一书表现不俗，我和他还邮件沟通过几次，所以有些事已经在酝酿了。当 _Pragmatic Press_ 和 _O'Reilly_ 出版社都在争着要出版`Elixir`，我知道在`Erlang VM`上的事已经在发生了，而我自己还没注意到。毫无疑问我Out了！
 
 我发封邮件给 _Dave_ 和 _Simon_，他们爽快地借给我了样书，现在可以开始阅读了……谢了二位……
 
@@ -81,7 +81,7 @@ _Dave_ 对`Elixir`很感兴趣，在他的书里这样写道：
 > 【译注】：
 >
 > **_`sigil`_** 是指在变量名中包含符号来表达数据类型或作用域，通常作为前缀，如`$foo`，其中`$`就是个`sigil`。
-> 像本文中说的例子，`sigil`也可以能对常量加上字母符号，`r"abc"`，其中`r`是`sigil`，把字符串转成正则表达式。
+> 像本文中说的例子，`sigil`也可以能对常量加上字母符号，`r"abc"`，其中`r`是`sigil`，约定成转换字符串成正则表达式的语法糖。
 > 详见[`wikipedia`词条`sigil`](https://en.wikipedia.org/wiki/Sigil_(computer_programming))
 >
 > ---------------
@@ -540,7 +540,7 @@ def f(x) do
 end
 ```
 
-这个问题完全是可以解决的，我在`erlang2`语言实验并解决了。
+这个问题完全是可以解决的，我已经在`erlang2`语言中实验并解决了。
 
 # 结束语
 
@@ -552,6 +552,6 @@ end
 
 _Dave_ 很喜欢`Elixir`，我也觉得很酷，我想我们俩会在使用过程中找到更多乐趣的。
 
-像`WhatsApp`这个应用和全世界一半手机网络的关键部分都是搭建在`Erlang`之上。当技术变得更加亲和，当新一批热衷者进入阵营，让我现在怀着非常欣喜的心情关注着后续要发生的变化。
+像`WhatsApp`应用和全世界一半手机网络的关键部分都是搭建在`Erlang`之上。当技术变得更加亲和，当新一批热衷者进入阵营，让我现在怀着非常欣喜的心情关注着后续要发生的变化。
 
 这是篇即兴的文章。也许会有些不妥之处，欢迎大家指正。
